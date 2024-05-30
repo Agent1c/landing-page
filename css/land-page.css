@@ -9,7 +9,6 @@
 }
 
 body{
-    background: #BF0436;
     padding: 10px;
     box-sizing:inherit;
     font-size: 16px;
@@ -17,11 +16,14 @@ body{
     margin: 0 auto;
     font-family: "Poppins", sans-serif; 
     color: #fff;
+    background:  #ebebeb;
     width: 1100px;
 }
 
 .nav{
+    background: #BF0436;
     height: 60px;
+    width: 900px;
     /* border: 1px solid yellowgreen; */
     padding: 0 15px;
     margin: 0 auto;
@@ -122,7 +124,7 @@ a:hover{
     margin: 0 auto;
 }
 
-.center-stories li{
+.center-stories *{
     border-radius:5px ;
     list-style: none;
   text-align: center;
