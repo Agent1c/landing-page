@@ -90,7 +90,7 @@ a:hover{
 .story p{
     font-family:"Roboto", sans-serif;
     font-size: 20px;
-    flex-shrink: 120px;
+    /* flex-shrink: 120px; */
 }
 
 .story img{
@@ -187,7 +187,7 @@ a:hover{
     opacity: 95%;
     text-align:right;
     display: inline;
-    font-weight: 200;
+    font-weight: 100;
     margin-right:5px;
     padding: 5px;
     line-height: 1.2;
